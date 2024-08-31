@@ -1,0 +1,26 @@
+specVersion: 1.0.0
+indexerHints:
+  prune: auto
+schema:
+  file: ./schema.graphql
+dataSources:
+  - kind: ethereum
+    name: SavingsWalletFactory
+    network: sepolia
+    source:
+      address: "0xf7a0182ff050c7bf7f84d1d168ab6ca4da97af76"
+      abi: SavingsWalletFactory
+      startBlock: 6605817
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.7
+      language: wasm/assemblyscript
+      entities:
+        - WalletCreated
+      abis:
+        - name: SavingsWalletFactory
+          file: ./abis/SavingsWalletFactory.json
+      eventHandlers:
+        - event: WalletCreated(indexed address,address)
+          handler: handleWalletCreated
+      file: ./src/savings-wallet-factory.ts

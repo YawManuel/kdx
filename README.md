@@ -1,6 +1,6 @@
-# Drops Wallet
+# Kdx Wallet
 
-Drops wallet is a non-custodial wallet. The features I implemented are explained in the challenge.
+Kdx wallet is a non-custodial wallet. The features I implemented are explained in the challenge.
 
 - Non-custodial wallet. Get a seed phrase and sign transactions from your browser.
 - Activate a savings feature.
