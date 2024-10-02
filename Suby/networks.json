@@ -1,8 +1,0 @@
-{
-  "sepolia": {
-    "SavingsWalletFactory": {
-      "address": "0xf7a0182ff050c7bf7f84d1d168ab6ca4da97af76",
-      "startBlock": 6605817
-    }
-  }
-}

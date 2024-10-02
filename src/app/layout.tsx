@@ -12,7 +12,7 @@ const threeDCubesBg = require("@/assets/3d-cubes.png")
 const plusJakartaFont = Plus_Jakarta_Sans({subsets: ["latin"]})
 
 export const metadata: Metadata = {
-  title: 'Kdx',
+  title: 'Tack',
   description: 'Smart savings for you',
 }
 

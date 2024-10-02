@@ -34,7 +34,7 @@ const WelcomePage = () => {
   return (
     <>
       <h2 className="text-lg font-bold text-center my-4">
-        Welcome to KDX Wallet
+        Welcome to Drops Wallet
       </h2>
       <div className='relative w-full flex justify-center'>
         <Image src={String(threeDCubesBg.default.src)} alt="image" width={150} height={300} className=' z-0 ' />
